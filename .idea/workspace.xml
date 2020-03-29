@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06ef67c2-73db-4330-b018-8baf1f638f46" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZoaK3U8SUSR9mb26fSzlKhgqKx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="aws" />
+  </component>
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.test.client.Cliente" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.test.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.test.server.Servidor" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.test.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06ef67c2-73db-4330-b018-8baf1f638f46" name="Default Changelist" comment="" />
+      <created>1585507832419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585507832419</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="571" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585507931003">
+      <screen x="34" y="23" width="1406" height="877" />
+    </state>
+    <state x="571" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/34.23.1406.877@34.23.1406.877" timestamp="1585507931003" />
+    <state x="496" y="350" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585515717128">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state x="496" y="350" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/33.23.1407.877@33.23.1407.877" timestamp="1585515717128" />
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1585516123475">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="413" height="466" key="DebuggerActiveHint/33.23.1407.877@33.23.1407.877" timestamp="1585516123475" />
+    <state width="1364" height="321" key="GridCell.Tab.0.bottom" timestamp="1585517582764">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="321" key="GridCell.Tab.0.bottom/33.23.1407.877@33.23.1407.877" timestamp="1585517582764" />
+    <state width="1364" height="321" key="GridCell.Tab.0.center" timestamp="1585517582764">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="321" key="GridCell.Tab.0.center/33.23.1407.877@33.23.1407.877" timestamp="1585517582764" />
+    <state width="1364" height="321" key="GridCell.Tab.0.left" timestamp="1585517582764">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="321" key="GridCell.Tab.0.left/33.23.1407.877@33.23.1407.877" timestamp="1585517582764" />
+    <state width="1364" height="321" key="GridCell.Tab.0.right" timestamp="1585517582764">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="321" key="GridCell.Tab.0.right/33.23.1407.877@33.23.1407.877" timestamp="1585517582764" />
+    <state width="1364" height="285" key="GridCell.Tab.1.bottom" timestamp="1585516328278">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="285" key="GridCell.Tab.1.bottom/33.23.1407.877@33.23.1407.877" timestamp="1585516328278" />
+    <state width="1364" height="285" key="GridCell.Tab.1.center" timestamp="1585516328277">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="285" key="GridCell.Tab.1.center/33.23.1407.877@33.23.1407.877" timestamp="1585516328277" />
+    <state width="1364" height="285" key="GridCell.Tab.1.left" timestamp="1585516328277">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="285" key="GridCell.Tab.1.left/33.23.1407.877@33.23.1407.877" timestamp="1585516328277" />
+    <state width="1364" height="285" key="GridCell.Tab.1.right" timestamp="1585516328277">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state width="1364" height="285" key="GridCell.Tab.1.right/33.23.1407.877@33.23.1407.877" timestamp="1585516328277" />
+    <state x="225" y="44" key="SettingsEditor" timestamp="1585515798825">
+      <screen x="33" y="23" width="1407" height="877" />
+    </state>
+    <state x="225" y="44" key="SettingsEditor/33.23.1407.877@33.23.1407.877" timestamp="1585515798825" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/com/test/client/Cliente.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/com/test/server/Servidor.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
