@@ -6,10 +6,12 @@ public class Request implements Serializable{
 
 	private Integer numCuenta;
 	private Integer valor;
-	
-	public Request(Integer numCuenta, Integer valor){
+	private Integer peticion;
+
+	public Request(Integer numCuenta, Integer valor,Integer peticion){
 		this.numCuenta = numCuenta;
 		this.valor = valor;
+		this.peticion = peticion;
 	}
 
 	public Request(){
@@ -22,14 +24,22 @@ public class Request implements Serializable{
 	public void setNumCuenta(Integer numCuenta) {
 		this.numCuenta = numCuenta;
 	}
-	
+
 	public Integer getValor() {
 		return valor;
 	}
 	public void setValor(Integer valor) {
 		this.valor = valor;
 	}
-	
-	
-	
+
+	public Integer getPeticion() {
+		return peticion;
+	}
+
+	public void setPeticion(Integer peticion) {
+		this.peticion = peticion;
+	}
+
+
+
 }

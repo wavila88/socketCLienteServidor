@@ -2,6 +2,7 @@ package co.com.test.server;
 
 import java.io.*;
 import java.net.*;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.mysql.jdbc.Connection;
@@ -20,7 +21,7 @@ public class Servidor {
 		// Socket for server to listen at.
 		ServerSocket listener = new ServerSocket(portNum);
 
-		System.out.println("Server is now running at port: " + portNum);
+		System.out.println("El servidor esta funcionando en el puerto: " + portNum);
 
 		// Simply making Server run continously.
 		while (true) {
@@ -34,30 +35,45 @@ public class Servidor {
 
 				// Reading in Integer Object from input stream.
 				Request req = (Request) in.readObject();
-
-				// Se inserta en BD
-				Connection con = Conection.getConnection();
+				String response = "";
 				try {
-					Statement st = (Statement) con.createStatement();
-					st.executeUpdate("INSERT INTO socketDB.Cuentas (NumeroCuenta,ValorCuenta) " + "VALUES ("
-							+ req.getNumCuenta() + "," + req.getValor() + ")");
+
+					Connection con = Conection.getConnection();
+					if (req.getPeticion() == 1) {
+						// Se valida valor de una cuenta
+						Statement st = (Statement) con.createStatement();
+						ResultSet rs = st.executeQuery("SELECT * FROM Cuentas WHERE NumeroCuenta = "+req.getNumCuenta()+"");
+
+
+						while(rs.next()){
+							response = "El valor de tu cuenta es: "+rs.getInt(3);
+						}
+
+						out.writeObject(response);
+
+					} else if (req.getPeticion() == 2) {
+
+						// Se inserta cuenta con valor
+						Statement st = (Statement) con.createStatement();
+
+						st.executeUpdate("INSERT INTO socketDB.Cuentas (NumeroCuenta,ValorCuenta) " + "VALUES ("
+								+ req.getNumCuenta() + "," + req.getValor() + ")");
+
+						// Sending response back to client
+						response = "Num cuenta " + req.getNumCuenta() + " Valor: " + req.getValor()
+								+ " Ingresado exitosamente";
+						out.writeObject(response);
+
+					}
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
-					System.out.print("Error conectando a base de datos");
+					System.out.print("Error conectando a base de datos Mensaje: "+e.getMessage());
 				}
 
-				// Sending response back to client
-				String response = "Num cuenta " + req.getNumCuenta() + " Valor: " + req.getValor()
-						+ " Ingresado exitosamente";
-				out.writeObject(response);
-				System.out.println("OK");
-				out.close();
-				in.close();
-				clientSocket.close();
 
 			} finally {
 				// Closing Server Socket now.
-				listener.close();
+
 
 			}
 

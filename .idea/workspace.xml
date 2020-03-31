@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ef67c2-73db-4330-b018-8baf1f638f46" name="Default Changelist" comment="" />
+    <list default="true" id="06ef67c2-73db-4330-b018-8baf1f638f46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/test/client/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/test/client/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/test/models/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/test/models/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/test/server/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/test/server/Servidor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZoaK3U8SUSR9mb26fSzlKhgqKx" />
   <component name="ProjectViewState">
@@ -14,6 +23,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -122,13 +132,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/co/com/test/client/Cliente.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/co/com/test/server/Servidor.java</url>
-          <line>58</line>
+          <line>74</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
